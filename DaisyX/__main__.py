@@ -361,7 +361,7 @@ def DaisyX_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"*😍 Chibai nawn leh!  {dispatcher.bot.first_name} 😍 \n\n kei hi group zangkhai zawk a enkawl puitu Bot ka ni a,min siam tu hi @rsrmusic ani.* "
-            f"\n\n 🔥 Click la👉 [RSR TG info★](https://t.me/rsrtginfo) Group hi join rawh,update ka nih hun ah te i hriat theih nan aw{dispatcher.bot.first_name} 🔥"
+            f"\n\n 🔥 Click la👉 [RSR TG info★](https://t.me/rsrtginfo) Group hi join rawh,update ka nih hun ah te i hriat theih nan {dispatcher.bot.first_name} 🔥"
             f"\n\n Harsatna te i neih chuan Group kaltlang khian i zawt dawn nia."
             f"\n\nKa feature neih te hmang a tha tak a i group enkawl pui che ka tum ang[:)](https://telegra.ph/file/47caadaea13d54e062d1b.jpg)"
             f"\n\n👇 A hnuai a button ami ho khu click la Follow / Join ve hlawm la 👇",
