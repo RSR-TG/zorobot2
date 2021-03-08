@@ -93,6 +93,7 @@ HELP_STRINGS = f"""
 ✪ /settings: 
    ◔ Private ah: Ka module support set na thawn ini ang.
    ◔ Group ah: Private a luhna leh chat set na zawng zawng pek ini ang.
+★A hnuai a button ho hi click la,ka hnathawh theih hrang hrang ani e,mahse English vek a a hrilhfiahna ziah ania,harsatna i neih theih avang in click la👉 @rsrtginfo join rawh
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
