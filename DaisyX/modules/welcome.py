@@ -199,7 +199,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Devs
             elif new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Whoa! min siamtu te zing ami alo lut e...welcome tha chi aw🥰",
+                    "Whoa! min siamtu te zing ami alo lut e...welcome tha chi aw🥰,ka master chu @rsrmusic ani",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -207,7 +207,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Sudos
             elif new_mem.id in DRAGONS:
                 update.effective_message.reply_text(
-                    "Whoa! min siamtu te zing ami alo lut e...welcome tha chi aw🥰",
+                    "Whoa! min siamtu te zing ami alo lut e...welcome tha chi aw🥰,ka master chu @rsrmusic ani",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -215,7 +215,7 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Support
             elif new_mem.id in DEMONS:
                 update.effective_message.reply_text(
-                    "Whoa! min siamtu te zing ami alo lut e...welcome tha chi aw🥰",
+                    "Whoa! min siamtu te zing ami alo lut e...welcome tha chi aw🥰,ka master chu @rsrmusic ani",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -223,14 +223,14 @@ def new_member(update: Update, context: CallbackContext):
             # Welcome Whitelisted
             elif new_mem.id in TIGERS:
                 update.effective_message.reply_text(
-                    "Whoa! min siamtu te zing ami alo lut e...welcome tha chi aw🥰", reply_to_message_id=reply
+                    "Whoa! min siamtu te zing ami alo lut e...welcome tha chi aw🥰,ka master chu @rsrmusic ani", reply_to_message_id=reply
                 )
                 continue
 
             # Welcome Tigers
             elif new_mem.id in WOLVES:
                 update.effective_message.reply_text(
-                    "Whoa! min siamtu te zing ami alo lut e...welcome tha chi aw🥰", reply_to_message_id=reply
+                    "Whoa! min siamtu te zing ami alo lut e...welcome tha chi aw🥰,ka master chu @rsrmusic ani", reply_to_message_id=reply
                 )
                 continue
 
@@ -513,14 +513,14 @@ def left_member(update: Update, context: CallbackContext):
             # Give the owner a special goodbye
             if left_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "Oi! Chrome! He left..ʕ´• ᴥ•̥`ʔ", reply_to_message_id=reply
+                    "Tun a group atanga left/remove hi min siamtu te zing ami ani e,pawi hlemai😭,ka Master chu @rsrmusic ani e", reply_to_message_id=reply
                 )
                 return
 
             # Give the devs a special goodbye
             elif left_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "See you later at the Anteiku Union!",
+                    "Tun a group atanga left/remove hi min siamtu te zing ami ani e,pawi hlemai😭,ka Master chu @rsrmusic ani e",
                     reply_to_message_id=reply,
                 )
                 return
