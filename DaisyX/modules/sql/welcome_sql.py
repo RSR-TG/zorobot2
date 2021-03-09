@@ -7,8 +7,8 @@ from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
 from DaisyX.modules.helper_funcs.msg_types import Types
 from DaisyX.modules.sql import BASE, SESSION
 
-DEFAULT_WELCOME = "Hey {first}, how are you?"
-DEFAULT_GOODBYE = "Nice knowing ya!"
+DEFAULT_WELCOME = "Hi {mention}, kan lo lawm a che"
+DEFAULT_GOODBYE = "{mention} mangtha le"
 
 DEFAULT_WELCOME_MESSAGES = [
     "{first} is here!",  # Discord welcome messages copied
