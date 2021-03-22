@@ -63,11 +63,11 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Chibai, [Zo Robot] ka nia(https://telegra.ph/file/47caadaea13d54e062d1b.jpg)
+Chibai le
 
 Group i enkawl na ah i zangkhai zawk theih nan a pui thei tu tur che ka ni e
 
-✪ Ka hnathawh theih i hriat duh chuan /help tih hi click rawh ✪ 
+✪ Ka hnathawh theih i hriat duh chuan /help tih hi click rawh,chuan harsatna engemaw i nei thei a,chuvang chuan a hnuai button a channel leh group hi i join dawn nia ✪ 
 """
 
 buttons = [
@@ -79,14 +79,14 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ Group a add na ➕", url="t.me/mizoro_bot?startgroup=true"
+            text="➕ Group ah Add rawh ➕", url="t.me/tereuhte_bot?startgroup=true"
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/47caadaea13d54e062d1b.jpg)
+*Main Commands :* [🤖]
 ✪ /start: Min tihnun na.
 ✪ /help: Ka hnathawh theih i hriat theihna!
 ✪ /donate: Min siamtu hnen a lawmman i pek ve na tur.
@@ -363,7 +363,7 @@ def DaisyX_about_callback(update, context):
             text=f"*😍 Chibai nawn leh!  {dispatcher.bot.first_name} 😍 \n\n kei hi group zangkhai zawk a enkawl puitu Bot ka ni a,min siam tu hi @rsrmusic ani.* "
             f"\n\n 🔥 Click la👉 [RSR TG info★](https://t.me/rsrtginfo) Group hi join rawh,update ka nih hun ah te i hriat theih nan {dispatcher.bot.first_name} 🔥"
             f"\n\n Harsatna te i neih chuan Group kaltlang khian i zawt dawn nia."
-            f"\n\nKa feature neih te hmang a tha tak a i group enkawl pui che ka tum ang[:)](https://telegra.ph/file/47caadaea13d54e062d1b.jpg)"
+            f"\n\nKa feature neih te hmang a tha tak a i group enkawl pui che ka tum ang[:)]"
             f"\n\n👇 A hnuai a button ami ho khu click la Follow / Join ve hlawm la 👇",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
